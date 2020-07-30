@@ -1,0 +1,14 @@
+[package]
+name = "bls_poc"
+version = "0.1.0"
+authors = ["Yoga07 <yogeshwar_1997@hotmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pairing-plus = "0.19.0"
+rand = "0.7.3"
+bls_sigs_ref = "0.3.0"
+sha2 = "0.8"
+threshold_crypto = "0.4.0"
